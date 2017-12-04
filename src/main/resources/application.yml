@@ -1,0 +1,15 @@
+spring:
+  kafka:
+    bootstrap-servers: 10.200.0.105:9092
+  topic:
+    test: test
+
+kafka:
+  topic:
+    test: test
+
+
+#    spring.kafka.consumer.group-id=shipping
+#    spring.kafka.consumer.value-deserializer=com.ewolff.microservice.shipping.events.ShipmentDeserializer
+#    spring.kafka.consumer.auto-offset-reset=earliest
+#    spring.kafka.listener.ack-mode=MANUAL
